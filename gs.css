@@ -106,3 +106,35 @@ tr:nth-child(even){
     border: darkturquoise;
 }
 
+.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    background-color: coral;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+li a{
+    display: block;
+    color: blanchedalmond;
+    text-align: left;
+    padding: 8px, 10px;
+    text-decoration: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+    background-color: darkgoldenrod;
+}
+
+li{
+    #float: left;
+}
+
+.image{
+    width: 30%;
+}
