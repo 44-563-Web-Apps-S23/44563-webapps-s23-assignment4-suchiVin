@@ -1,0 +1,108 @@
+.speech{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 25;
+    color: black;
+}
+
+.direction{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 23;
+    color: black;
+    background-color: aquamarine;
+}
+
+.name{
+    text-shadow: firebrick;
+    border: 1%;
+}
+
+.direction:hover{
+    background-color: azure;
+    color: blueviolet;
+}
+
+.IMP{
+    color: darkgray;
+}
+
+.WOMAN{
+    color: darkorchid;
+}
+
+.VAINWOMAN{
+    color: hotpink;
+}
+
+.JUDGE{
+    color: brown;
+}
+
+.CITIZEN{
+    color: khaki;
+}
+
+table, th, td{
+    border: 2px solid;
+    text-align: center;
+    border-radius: 2px;
+    width: 3%;
+}
+
+table{
+    padding: 6px;
+    color: cadetblue;
+    margin: 5px;
+}
+
+th{
+    padding: 6px;
+    color: black;
+    width: 6%;
+}
+
+td{
+    color: darksalmon;
+    border: 1px solid;
+    height: 22px;
+}
+
+tr:nth-child(even){
+    background-color: darkolivegreen;
+}
+
+.IMP:hover{
+    background: bisque;
+    color: rgb(150, 80, 70);
+    text-shadow: 5px 5px #5a5f5a;
+    border: indigo;
+}
+
+.WOMAN:hover{
+    background: cornsilk;
+    color: rgb(180, 87, 60);
+    text-shadow: 5px 5px #4a6e54;
+    border:cornflowerblue
+}  
+
+
+.VAINWOMAN:hover{
+    background: darkgray;
+    color: rgb(120, 85, 75);
+    text-shadow: 5px 5px #5a5f5a;
+    border: darkmagenta;
+}
+
+.JUDGE:hover{
+    background: lavender;
+    color: rgb(200, 80, 70);
+    text-shadow: 5px 5px #5a5f5a;
+    border: #53a453;
+}
+
+.CITIZEN:hover{
+    background: darkcyan;
+    color: rgb(170, 80, 70);
+    text-shadow: 5px 5px #5a5f5a;
+    border: darkturquoise;
+}
+
